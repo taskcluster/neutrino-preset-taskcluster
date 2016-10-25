@@ -47,7 +47,7 @@ module.exports = {
     'consistent-this': ['warn', 'that'],
 
     // Enforce usage of curly braces for all control statements
-    curly: ['error', 'always'],
+    curly: ['error', 'all'],
 
     // Enforce default case in switch statements
     'default-case': 'error',

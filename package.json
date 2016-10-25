@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-taskcluster",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "TaskCluster preset for building Neutrino applications",
   "main": "src/index.js",
   "repository": {

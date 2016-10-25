@@ -10,4 +10,12 @@ const config = merge(preset, {
   }
 });
 
+const babelLoader = config.module.loaders.find(l => l.loader.includes('babel'));
+
+if (!babelLoader.query.plugins) {
+  babelLoader.query.plugins = [];
+}
+
+babelLoader.query.plugins.push(require.resolve('babel-plugin-transform-strict-mode'));
+
 module.exports = config;

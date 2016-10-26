@@ -17,5 +17,6 @@ if (!babelLoader.query.plugins) {
 }
 
 babelLoader.query.plugins.push(require.resolve('babel-plugin-transform-strict-mode'));
+babelLoader.query.plugins.push(require.resolve('babel-plugin-transform-object-rest-spread'));
 
 module.exports = config;

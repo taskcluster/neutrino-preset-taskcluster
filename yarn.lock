@@ -2163,9 +2163,9 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
-neutrino-preset-base@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/neutrino-preset-base/-/neutrino-preset-base-2.0.1.tgz#8267e57587219bba520226805afc60f08bb1b09d"
+neutrino-preset-base@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/neutrino-preset-base/-/neutrino-preset-base-2.1.0.tgz#fbddf69c1e55df22c8dbce6bb98c2d55e9bb58be"
   dependencies:
     babel-core "6.17.0"
     babel-eslint "7.0.0"
@@ -2187,14 +2187,14 @@ neutrino-preset-base@2.0.1:
     webpack "1.13.2"
     webpack-merge "0.15.0"
 
-neutrino-preset-node@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/neutrino-preset-node/-/neutrino-preset-node-2.2.0.tgz#774911c3b9e0186737f32a9d226221707af42633"
+neutrino-preset-node@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/neutrino-preset-node/-/neutrino-preset-node-2.3.0.tgz#db8341a476ef03444a0ad5dbcdde0d9b43cf49da"
   dependencies:
     babel-plugin-transform-async-to-generator "6.16.0"
     babel-plugin-transform-runtime "6.15.0"
     babel-runtime "6.11.6"
-    neutrino-preset-base "2.0.1"
+    neutrino-preset-base "2.1.0"
     webpack-merge "0.15.0"
     webpack-node-externals "1.5.4"
 

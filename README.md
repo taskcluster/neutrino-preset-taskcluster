@@ -22,7 +22,7 @@ configure your project's main and files to include the built files, not the sour
 
 ```json
 {
-  "main": "build/index.js",
+  "main": "build/index.bundle.js",
   "files": [
     "build"
   ],

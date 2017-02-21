@@ -1,12 +1,9 @@
 {
   "name": "neutrino-preset-taskcluster",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "TaskCluster preset for building Neutrino applications",
   "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/taskcluster/neutrino-preset-taskcluster.git"
-  },
+  "repository": "taskcluster/neutrino-preset-taskcluster",
   "keywords": [
     "neutrino",
     "neutrino-preset"
@@ -18,12 +15,15 @@
   },
   "homepage": "https://github.com/taskcluster/neutrino-preset-taskcluster#readme",
   "peerDependencies": {
-    "neutrino": "^3.0.0"
+    "neutrino": "^4.0.0"
   },
   "dependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.16.0",
-    "babel-plugin-transform-strict-mode": "^6.18.0",
-    "neutrino-preset-node": "2.4.0",
-    "webpack-merge": "^0.15.0"
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-strict-mode": "^6.22.0",
+    "eslint": "^3.16.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-babel": "^4.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "neutrino-preset-node": "^4.0.1"
   }
 }

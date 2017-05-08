@@ -1,9 +1,13 @@
-const node = require('neutrino-preset-node');
 const eslint = require('neutrino-middleware-eslint');
+const node = require('neutrino-preset-node');
+const mocha = require('neutrino-preset-mocha');
 const loaderMerge = require('neutrino-middleware-loader-merge');
 
 module.exports = neutrino => {
+  neutrino.options.output = 'lib';
+
   neutrino.use(eslint, {
+    include: [neutrino.options.source],
     eslint: {
       rules: {
         // Disallow spacing inside array brackets
@@ -87,6 +91,7 @@ module.exports = neutrino => {
     }
   });
   neutrino.use(node);
+  neutrino.use(mocha);
   neutrino.use(loaderMerge('compile', 'babel'), {
     plugins: [
       require.resolve('babel-plugin-transform-strict-mode'),

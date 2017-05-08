@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-taskcluster",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "TaskCluster preset for building Neutrino Node.js applications",
   "main": "index.js",
   "repository": "taskcluster/neutrino-preset-taskcluster",
@@ -22,6 +22,7 @@
     "babel-plugin-transform-strict-mode": "^6.24.1",
     "neutrino-middleware-eslint": "^5.8.0",
     "neutrino-middleware-loader-merge": "^5.8.0",
+    "neutrino-preset-mocha": "^5.8.0",
     "neutrino-preset-node": "^5.8.0"
   }
 }
